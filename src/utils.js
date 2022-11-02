@@ -12,6 +12,6 @@ export function polyfillNeeded(self) {
   // does NOT correctly implement abortable fetch:
   // https://bugs.webkit.org/show_bug.cgi?id=174980#c2
   return (
-    (typeof self.Request === 'function' && !self.Request.prototype.hasOwnProperty('signal')) || !self.AbortController
+    (typeof self.Request === 'function' && !self.Request.prototype.hasOwnProperty('signal')) && !self.AbortController
   );
 }

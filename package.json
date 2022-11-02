@@ -1,6 +1,6 @@
 {
-  "name": "abortcontroller-polyfill",
-  "version": "1.7.5",
+  "name": "pavel-abortcontroller-polyfill",
+  "version": "1.7.6",
   "description": "Polyfill/ponyfill for the AbortController DOM API + optional patching of fetch (stub that calls catch, doesn't actually abort request).",
   "main": "dist/umd-polyfill.js",
   "files": [
@@ -20,7 +20,7 @@
     "eslint": "eslint src/ tests/"
   },
   "keywords": [],
-  "repository": "mo/abortcontroller-polyfill",
+  "repository": "pustovalov/abortcontroller-polyfill",
   "author": "Martin Olsson <martin@minimum.se> (https://mo.github.io)",
   "license": "MIT",
   "devDependencies": {
